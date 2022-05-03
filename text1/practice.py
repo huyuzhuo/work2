@@ -1,8 +1,7 @@
 import string
 
 from venv.dataFactoryInterface import dataFactoryInterface
-from venv import intSampling
-from venv import strSampling
+
 if __name__ == "__main__":
     interface = dataFactoryInterface()
 
@@ -21,12 +20,14 @@ if __name__ == "__main__":
     #     print(item)
 
     #self defined structure
-    obj = interface.create("selfDefinedStruct")
+    # obj = interface.create("selfDefinedStruct")
     # paras = {"num":5,"struct":{"int": {"datarange":(0,100)}, "float":{"datarange":(0,10000)},"str":{"datarange":string.ascii_uppercase,"len":50}}}
     # result = obj.sampling(**paras)
     # for item in result:
     #     print(item)
-    # #
+
+
+    # self defined class
     # obj = interface.create("selfDefinedClass")
     # paras = {"num":5,"classname":"MyClass","parameters":5}
     # result = obj.sampling(**paras)
