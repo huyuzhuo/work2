@@ -1,6 +1,6 @@
 import string
 
-from venv.dataFactoryInterface import dataFactoryInterface
+from dataFactoryInterface import dataFactoryInterface
 
 if __name__ == "__main__":
     interface = dataFactoryInterface()
